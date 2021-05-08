@@ -1,0 +1,4 @@
+./configure --prefix=/usr/local/iphone --host=arm-apple-darwin --enable-static=yes --enable-shared=no CC="`xcrun --toolchain macosx -f clang`"  CFLAGS="-arch arm64 -pipe -mdynamic-no-pic -std=c99 -Wno-trigraphs -fpascal-strings -O2 -Wreturn-type -Wunused-variable -fmessage-length=0 -fvisibility=hidden -miphoneos-version-min=14.5 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libxml2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk" CPP="`xcrun --toolchain macosx -f clang`" AR="`xcrun --toolchain macosx -f ar`" LDFLAGS="-arch arm64 -isysroot  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk  -miphoneos-version-min=14.5"
+make clean;make
+echo "file is at: objs/.libs/libfreetype.a"
+ls objs/.libs/libfreetype.a

@@ -1,0 +1,9 @@
+/Users/bbarrows/repos/freetype-2.10.4/build/CMakeFiles/install/local.dir
+/Users/bbarrows/repos/freetype-2.10.4/build/CMakeFiles/list_install_components.dir
+/Users/bbarrows/repos/freetype-2.10.4/build/CMakeFiles/package_source.dir
+/Users/bbarrows/repos/freetype-2.10.4/build/CMakeFiles/rebuild_cache.dir
+/Users/bbarrows/repos/freetype-2.10.4/build/CMakeFiles/edit_cache.dir
+/Users/bbarrows/repos/freetype-2.10.4/build/CMakeFiles/package.dir
+/Users/bbarrows/repos/freetype-2.10.4/build/CMakeFiles/install/strip.dir
+/Users/bbarrows/repos/freetype-2.10.4/build/CMakeFiles/install.dir
+/Users/bbarrows/repos/freetype-2.10.4/build/CMakeFiles/freetype.dir
